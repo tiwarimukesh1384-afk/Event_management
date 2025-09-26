@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
@@ -70,6 +71,7 @@
 </head>
 
 <body>
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBX9XGJ" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -1162,7 +1164,7 @@
                             <div class="item">
                                 <div class="ow-client-logo">
                                     <div class="client-logo client-logo-media">
-                                        <a href="javascript:void(0);"><img src="static'images/Holiday.png" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{%static 'images/Holiday.png' %}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -1892,6 +1894,7 @@
             $(this).toggleClass("expanded");
         });
     </script>
+    
 
 </body>
 
